@@ -1,0 +1,27 @@
+.graph{ 
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonGroup{ 
+  position: absolute;
+  top: 19vh;
+  right: 2vw;
+}
+
+.rydeLogo{
+  position: absolute;
+  top: 10vh;
+  right: 50vw;
+}
+
+h1{
+  color: #8884d8;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+main{
+  font-family: "Cedarville";
+}
