@@ -36,7 +36,7 @@ export default function App() {
 
   //useState constants
   const [graphData, setGraphData] = useState([]);
-  const [setActiveButton] = useState("Day");
+  const [activeButton, setActiveButton] = useState("Day");
 
   //default is Day view
   useEffect (() => {
