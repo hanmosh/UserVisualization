@@ -45,7 +45,7 @@ export default function App() {
 
   /**
   - Fetches the user sign-up data from the API for the specified time interval.
-  - Transforms the data into an array of objects with count and date properties, where date is the month and day.
+  - Transforms the data into an array of objects with count and date properties
   - Sets the transformed data to the graphData state.
   @param {string} interval - The time interval to fetch data for (Day, Week, Month).
   */
@@ -111,13 +111,13 @@ export default function App() {
                 bottom: 5,
               }}
             >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="date"/>
-          <YAxis dataKey="count"/>
-          <Tooltip />
-          <Legend />
-          <Line type="monotone" dataKey="count" stroke="#8884d8" activeDot={{ r: 8 }} />
-          </LineChart>
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="date"/>
+            <YAxis dataKey="count"/>
+            <Tooltip />
+            <Legend />
+            <Line type="monotone" dataKey="count" stroke="#8884d8" activeDot={{ r: 8 }} />
+            </LineChart>
           </ResponsiveContainer>
         </div>
       </main>
